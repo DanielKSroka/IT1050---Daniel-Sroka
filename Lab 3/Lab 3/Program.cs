@@ -4,41 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Lab_3
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            {
-               
+     
+        {     {
+            int SpeedLimit;
 
+        int Speed;
 
-        private int SpeedLimit;
-        private int Speed;
+        int SpeedLimit = 35;
+        int Speed = 42;
 
-        SpeedLimit = 35;
-            Speed = 42;
-
-            if (Speed > SpeedLimit)
+            if (int Speed > int SpeedLimit)
             
-            
-                private Console.Write Line("SLOW NOW");
+            {    Console.WriteLine("SLOW NOW");
 
-            
-
+            }
+}
             { private static int isTrue;
-        private int isTrue = 10;
-            if (isTrue <= 60 )
-            Console.WriteLine("It is True");
+int isTrue = 10;
+            if (int isTrue <= 10 )
+            Console.WriteLine ("It is True");
             else
-            Console.WriteLine("It is False");
+            Console.WriteLine ("It is False");
         }
     Console.WriteLine("Input temperature in Fahrenheit: ");
-        private double fahrenheit = Convert.ToDouble(Console.ReadLine());
-    Console.WriteLine();
-        private double Celsius = (fahrenheit - 32d) * 5d / 9d;
-    Console.WriteLine(Temperature in Celsius is {0}: ", Celsius);
+        double fahrenheit = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine();
+        double Celsius = (fahrenheit - 32d) * 5d / 9d;
+Console.WriteLine(Temperature in Celsius is {0}: ", Celsius);
             Console.ReadLine();
 
     private static int fahrenheit;
