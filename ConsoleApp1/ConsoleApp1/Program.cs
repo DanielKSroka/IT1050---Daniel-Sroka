@@ -14,8 +14,8 @@ namespace ConsoleApp1
                
 
 
-        private int SpeedLimit;
-        private int Speed;
+        int SpeedLimit;
+        int Speed;
 
         SpeedLimit = 35;
             Speed = 42;
@@ -23,28 +23,27 @@ namespace ConsoleApp1
             if (Speed > SpeedLimit)
             
             
-                private Console.Write Line("SLOW NOW");
+               Console.WriteLine("SLOW NOW");
 
             
 
-            { private static int isTrue;
-        private int isTrue = 10;
-            if (isTrue <= 60 )
+            {  int isTrue;
+            if ( isTrue <= 60 )
             Console.WriteLine("It is True");
             else
             Console.WriteLine("It is False");
         }
     Console.WriteLine("Input temperature in Fahrenheit: ");
-        private double fahrenheit = Convert.ToDouble(Console.ReadLine());
-    Console.WriteLine();
-        private double Celsius = (fahrenheit - 32d) * 5d / 9d;
+         double fahrenheit = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine ();
+         double Celsius = (fahrenheit - 32d) * 5d / 9d;
     Console.WriteLine(Temperature in Celsius is {0}: ", Celsius);
             Console.ReadLine();
 
-    private static int fahrenheit;
+     int fahrenheit;
     if (int fahrenheit >= 90)
             Console.WriteLine("It is hot");
-    if (int fahrenheit <= 40)
+    if (int fahrenheit ) <= 40))
             Console.WriteLine("It is cold");
 
    
